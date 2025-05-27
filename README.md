@@ -51,13 +51,13 @@ All explanations are processed locally where possible. No data is collected with
 | File/Component            | Description                                                            |
 | ------------------------- | ---------------------------------------------------------------------- |
 | `manifest.json`           | Extension manifest file defining permissions, scripts, and structure.  |
-| `langchainService.js`     | Integrates LangChain + OpenAI API for contextual code explanations.    |
-| `contentScript.js`        | Injected into web pages to detect code and manage sidebar UI.          |
+| `langchain-service.js`     | Integrates LangChain + OpenAI API for contextual code explanations.    |
+| `content.js`        | Injected into web pages to detect code and manage sidebar UI.          |
 | `popup.html` / `popup.js` | Provides extension popup interface for quick settings and info.        |
-| `contentStyles.css`       | Custom CSS for the sidebar and in-page UI.                             |
+| `content.css`       | Custom CSS for the sidebar and in-page UI.                             |
 | `background.js`           | Manages lifecycle, permissions, and API coordination.                  |
 | `options.html`            | Interface for advanced configuration, API keys, and theme preferences. |
-| `guide.md`                | Complete setup and development guide for contributors.                 |
+|               |
 
 ---
 
