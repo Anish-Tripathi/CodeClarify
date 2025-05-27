@@ -99,13 +99,11 @@ cd CodeClarify
 
 Coming soon: GIFs and walkthrough videos showcasing real-time usage.
 
-<p align="center">
-  <img src="assets/demo1.png" width="400" height="500" alt="Demo 1"/>
-</p>
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <img src="assets/demo1.png" width="400" height="550" alt="Demo 1"/>
+  <img src="assets/demo2.png" width="400" height="550" alt="Demo 2"/>
+</div>
 
-<p align="center">
-  <img src="assets/demo2.png" width="400" height="500" alt="Demo 2"/>
-</p>
 
 ---
 
