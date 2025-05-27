@@ -74,7 +74,7 @@ All explanations are processed locally where possible. No data is collected with
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/CodeClarify.git
+git clone https://github.com/Anish-Tripathi/CodeClarify.git
 cd CodeClarify
 ```
 
