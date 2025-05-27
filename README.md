@@ -1,1 +1,153 @@
-# CodeClarify
+# 🧠 CodeClarify – AI-Powered Code Explainer Extension
+
+**CodeClarify** is a smart, developer-friendly Chrome extension that leverages OpenAI's GPT models to instantly explain code snippets on any webpage. With interactive features and a non-intrusive design, it transforms how developers understand unfamiliar code.
+
+---
+
+## 🚀 Features
+
+### 🎯 Key Capabilities
+
+#### 🔍 Smart Code Detection
+
+Seamlessly scans and detects code blocks on any webpage.
+
+#### 🤖 AI-Powered Explanations
+
+Uses OpenAI's GPT models (via LangChain) to explain code logic in natural language. Easily configurable.
+
+#### 🧠 Follow-up Q&A
+
+Ask questions about the explanation for deeper clarity and context.
+
+#### 🧩 Multiple Interaction Modes
+
+Access explanations through:
+
+- Floating action button
+- Context menu right-click
+- Custom keyboard shortcuts
+
+#### 🖼️ Non-Intrusive Sidebar UI
+
+A sleek, resizable sidebar appears beside the code. Fully themeable.
+
+#### 📈 Usage History & Analytics
+
+View your explanation history, export insights, and manage stored sessions.
+
+#### 💻 Responsive Design
+
+Works on both desktop and mobile web browsers.
+
+#### 🔒 Security-First Architecture
+
+All explanations are processed locally where possible. No data is collected without explicit user consent.
+
+---
+
+## 🛠️ Core Files & Structure
+
+| File/Component            | Description                                                            |
+| ------------------------- | ---------------------------------------------------------------------- |
+| `manifest.json`           | Extension manifest file defining permissions, scripts, and structure.  |
+| `langchainService.js`     | Integrates LangChain + OpenAI API for contextual code explanations.    |
+| `contentScript.js`        | Injected into web pages to detect code and manage sidebar UI.          |
+| `popup.html` / `popup.js` | Provides extension popup interface for quick settings and info.        |
+| `contentStyles.css`       | Custom CSS for the sidebar and in-page UI.                             |
+| `background.js`           | Manages lifecycle, permissions, and API coordination.                  |
+| `options.html`            | Interface for advanced configuration, API keys, and theme preferences. |
+| `guide.md`                | Complete setup and development guide for contributors.                 |
+
+---
+
+## 🧑‍💻 How It Works
+
+1. Select or hover over code on any webpage.
+2. Trigger **CodeClarify** via button, shortcut, or right-click.
+3. Instantly see a sidebar with AI-generated explanations.
+4. Ask follow-up questions directly in the panel.
+5. View and export your history of explanations from the popup menu.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/CodeClarify.git
+cd CodeClarify
+```
+
+1. Go to `chrome://extensions/` in your browser.
+2. Enable **Developer Mode**.
+3. Click **Load Unpacked** and select the project directory.
+4. Done! Start using **CodeClarify**.
+
+---
+
+## 🧩 Tech Stack
+
+- **HTML** (UI components)
+- **LangChain + OpenAI GPT APIs**
+- **JavaScript** (Vanilla + Modular Scripts)
+- **Chrome Extension APIs** (Manifest V3)
+- **CSS3** (Modular, Theme Support)
+
+---
+
+## 📊 Demo
+
+Coming soon: GIFs and walkthrough videos showcasing real-time usage.
+
+<p align="center">
+  <img src="assets/demo1.png" width="700" height="400" alt="Demo 1"/>
+</p>
+
+<p align="center">
+  <img src="assets/demo2.gif" width="700" height="400" alt="Demo 2"/>
+</p>
+
+<p align="center">
+  <img src="assets/demo3.png" width="700" height="400" alt="Demo 3"/>
+</p>
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+### Development Setup
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes and test thoroughly
+4. Commit your changes: `git commit -m 'Add amazing feature'`
+5. Push to the branch: `git push origin feature/amazing-feature`
+6. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- OpenAI for providing the GPT API
+- LangChain for the seamless integration framework
+- The open-source community for inspiration and support
+
+---
+
+## 📞 Support
+
+- 📧 Email: support@codeclarify.dev
+- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/CodeClarify/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/CodeClarify/discussions)
+
+---
+
+⭐ **Star this repo if you find CodeClarify helpful!** ⭐
