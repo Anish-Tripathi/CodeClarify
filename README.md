@@ -100,50 +100,12 @@ cd CodeClarify
 Coming soon: GIFs and walkthrough videos showcasing real-time usage.
 
 <p align="center">
-  <img src="assets/demo1.png" width="700" height="400" alt="Demo 1"/>
+  <img src="assets/demo1.png" width="500" height="500" alt="Demo 1"/>
 </p>
 
 <p align="center">
-  <img src="assets/demo2.png" width="700" height="400" alt="Demo 2"/>
+  <img src="assets/demo2.png" width="500" height="500" alt="Demo 2"/>
 </p>
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes and test thoroughly
-4. Commit your changes: `git commit -m 'Add amazing feature'`
-5. Push to the branch: `git push origin feature/amazing-feature`
-6. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- OpenAI for providing the GPT API
-- LangChain for the seamless integration framework
-- The open-source community for inspiration and support
-
----
-
-## 📞 Support
-
-- 📧 Email: support@codeclarify.dev
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/CodeClarify/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/CodeClarify/discussions)
-
----
-
-⭐ **Star this repo if you find CodeClarify helpful!** ⭐
