@@ -1,4 +1,4 @@
-# 🧠 CodeClarify – AI-Powered Code Explainer Extension
+# CodeClarify – AI-Powered Code Explainer Extension
 
 **CodeClarify** is a smart, developer-friendly Chrome extension that leverages OpenAI's GPT models to instantly explain code snippets on any webpage. With interactive features and a non-intrusive design, it transforms how developers understand unfamiliar code.
 
@@ -104,11 +104,7 @@ Coming soon: GIFs and walkthrough videos showcasing real-time usage.
 </p>
 
 <p align="center">
-  <img src="assets/demo2.gif" width="700" height="400" alt="Demo 2"/>
-</p>
-
-<p align="center">
-  <img src="assets/demo3.png" width="700" height="400" alt="Demo 3"/>
+  <img src="assets/demo2.png" width="700" height="400" alt="Demo 2"/>
 </p>
 
 ---
