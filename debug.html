@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Storage Debug</title>
+  <style>
+    body { font-family: sans-serif; padding: 1em; background: #f8f8f8; }
+    label { display: block; margin: 1em 0 0.5em; }
+    input[type="text"] { width: 100%; padding: 4px; }
+    button { margin-top: 1em; }
+    pre { background: #eee; padding: 1em; }
+  </style>
+</head>
+<body>
+  <h2>Extension Storage Debug Tool</h2>
+  <label>API Key:
+    <input type="text" id="apiKey" placeholder="sk-..." />
+  </label>
+  <button id="saveKey">Save API Key</button>
+  <button id="showKey">Show Stored Key</button>
+  <button id="clearKey">Clear API Key</button>
+  <hr>
+  <button id="showAll">Show All Storage</button>
+  <pre id="output"></pre>
+  <script src="debug.js"></script>
+</body>
+</html>

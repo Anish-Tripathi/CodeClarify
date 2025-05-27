@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "name": "What Is This Code?",
+  "version": "1.0.0",
+  "description": "Instantly get AI-powered explanations of any code snippet on the web",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "contextMenus",
+    "notifications"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "What Is This Code?"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sidebar.html",
+        "sidebar.css",
+        "sidebar.js",
+        "langchain-service.js",
+        "*.png",
+        "*.css","debug.html", "debug.js"
+      ],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  "commands": {
+    "explain-code": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Explain the selected code"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.wtc-code-indicator {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(74, 144, 226, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.wtc-code-indicator:hover {
+  opacity: 1;
+}
+
+.wtc-icon {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.wtc-tooltip-container {
+  position: absolute;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+.wtc-tooltip {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.15);
+  padding: 12px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #333;
+  font-size: 14px;
+  pointer-events: auto;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.wtc-close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: #777;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wtc-close-button:hover {
+  color: #333;
+}
+
+.wtc-tooltip-content {
+  padding-right: 15px;
+}
+
+.wtc-tooltip-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.wtc-tooltip-content p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.wtc-tooltip-content ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.wtc-tooltip-content li {
+  margin-bottom: 4px;
+}
