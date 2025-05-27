@@ -87,17 +87,14 @@ cd CodeClarify
 
 ## 🧩 Tech Stack
 
-- **HTML** (UI components)
-- **LangChain + OpenAI GPT APIs**
-- **JavaScript** (Vanilla + Modular Scripts)
-- **Chrome Extension APIs** (Manifest V3)
-- **CSS3** (Modular, Theme Support)
-
+- **HTML** (UI structure and markup)  
+- **LangChain + OpenAI GPT APIs**  
+- **JavaScript** (Vanilla + Modular Scripts)  
+- **Chrome Extension APIs** (Manifest V3)  
+- **CSS3** (Modular, Theme Support)  
 ---
 
 ## 📊 Demo
-
-Coming soon: GIFs and walkthrough videos showcasing real-time usage.
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <img src="assets/demo1.png" width="350" height="550" alt="Demo 1"/>
